@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsite{
+    width: 1060px;
+    height:auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+}
+.firstroom{
+    background-color: #6a89cc;
+    height: 50px;
+    width: 100%;
+    padding: 15px 0px;
+}
+.firstroom .logo{
+    width: 40%;
+    float: left;
+    padding: 5px 10px;
+    color: white;
+}
+.firstroom .banner{
+    width: 50%;
+    float: right;
+}
+.secondroom{
+    width: 100%;
+    background:#4a69bd ;
+}
+.menu ul{
+list-style-type: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 0px;
+    border-right: 1px solid white;
+    margin-left: -4px;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+}
+.menu ul li a{
+text-decoration: none;
+padding: 10px 15px;
+color: white;
+
+}
+.menu ul li a:hover{
+background: rgb(13, 59, 33);
+
+}
+.thirdroom{
+    background: #0a3d62;
+    height: auto;
+    width: 100%;
+}
+.slider h2{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.fourthroom{
+    height: 500px;
+}
+.content{
+    background: #38ada9;
+    width: 63%;
+    float: left;
+    height: auto;
+    padding: 20px 5px;
+    padding-top: 0px;
+}
+.content img{
+    width:41%;
+    float: right;
+    margin-right: 20px;
+    padding: 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: teal;
+    margin-top: 15px;
+    height: 150px;
+    margin-left: 15px;
+}
+.content p{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 15px;
+    line-height: 26px;
+    text-indent: 20px;
+}
+.readmore{
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+    border: 5px solid white;
+    border-radius: 15px ;
+    padding: 10px 10px;
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+}
+.content a:hover{
+    background: thistle;
+    color: black;
+    border: 5px solid tomato;
+}
+.contentelement{
+    margin-top: 40px;
+}
+.contentelement:first-child{
+    margin-top: 20px;
+}
+
+/* right side bar */
+.rightsidebar{
+    background: #3c6382;
+    width: 32%;
+    float: right;
+    height: auto;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.sidebarelement{
+    margin-top: 20px;
+}
+.sidebarelement:first-child{
+    margin-top: 0px;
+}
+.sidebarelement h2{
+    color: white;
+    background-color: #0c2461;
+    width: 69%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: -25px;
+    font-weight: bold;
+}
+.sidebarelement ul li{
+    padding: 5px 0px;
+}
+.sidebarelement ul li a{
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.2s;
+}
+.sidebarelement ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.fifthroom{
+    clear: left;
+    background-color:#1f77b1;
+    height: auto;
+    display: flex;
+    padding: 60px 25px;
+    justify-content: space-around;
+}
+.box h2{
+    color: white;
+    font-weight: bold;
+    width: 72%;
+    border-bottom: 4px solid black;
+    padding-bottom: 10px;
+}
+.box ul{
+    padding: 5px 12px;
+}
+.box ul li{
+    padding: 10px 15px;
+}
+.box ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.box ul li a:hover{
+    text-decoration: underline;
+}
+.sixthroom{
+    background-color: black;   
+    text-align: center;
+}
+.sixthroom h4{
+    color: wheat;
+    padding: 10px;
+}
+
+/* About page */
+.aboutroom{
+    width: 80%;
+    background: rgb(55, 122, 177);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px 25px;
+    border: 5px solid rgb(27, 173, 112);
+    border-radius: 15px;
+}
+.aboutroom h2{
+    color: rgb(200, 252, 57);
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 0px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-left:40px ;
+}
+.aboutroom p{
+    font-size: 22px;
+    line-height: 44px;
+    color: black;
+    padding: 0px 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+label{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.form{
+    width: 31%;
+    margin: 0 auto;
+}
+input{
+    width: 100%;
+    padding: 5px 5px;
+    border: 3px solid firebrick;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 5px 5px;
+    border: 3px solid firebrick;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    width: 100px;
+    font-weight: 900;
+    font-size: 15px;
+}
+.button:hover{
+    background:rgb(16, 202, 193) ;
+    cursor: pointer;
+    color: white;
+}
